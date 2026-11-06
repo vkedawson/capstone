@@ -1,0 +1,17 @@
+body {
+background-color: rgb(225, 186, 130);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+color: rgb(25, 198, 198);
+font: italic;
+}
+
+h5{
+    color: blueviolet;
+    font: bolder;
+}
