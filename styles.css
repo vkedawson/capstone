@@ -4,14 +4,32 @@ background-color: rgb(225, 186, 130);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
 
-h2{
-color: rgb(25, 198, 198);
-font: italic;
-}
-
-h5{
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(25, 198, 198);
+    font: italic;
+  }
+  h5{
     color: blueviolet;
     font: bolder;
+    font-style: italic;
+    }
+    p {
+       line-height: 1.6;
+    }
+  footer {
+   a {
+  text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
+}
+  }
+    }
+  
