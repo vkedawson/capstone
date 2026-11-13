@@ -1,17 +1,32 @@
 body {
-background-color: rgb(225, 186, 130);
+  * {
+  font-size: 100%;
+  margin: 20px;
+  line-height: 1;
+  box-sizing: border-box;
+
+background-color:#18261E ;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: #EFE9D8 ;
+  }
 
+.banner {
+  height: 350px;
+  background-image: url(./media/boris-misevic-knqZ5N-qJQk-unsplash.jpg);
+  background-size: 100%;
+}
   h1 {
     text-align: center;
     font-weight: bolder;
+    color: #8E7AB5 ;
+    font-size: larger;
   }
   h2 {
     text-align: center;
-    color: rgb(25, 198, 198);
+    color:#DFAD4B ;
     font: italic;
   }
   h5{
@@ -30,6 +45,52 @@ a:hover {
   text-decoration: underline;
 }
 }
+.bear {
+  text-align: right;
+}
+@media print {
+  .page-break {
+    break-before: page;
+    page-break-before: always; 
   }
-    }
+}
+
+.walk{
+  text-align: center;
+}
+
+.i-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 32px;
+}
+
+.do-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 32px;
+}
+
+.what-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 32px;
+}
+
+.butterfly {
+  text-align: center;
+}
+
+.salmon {
+  text-align: center;
+}
+
+.butterfly p {
+  color: blueviolet;
+}
+.salmon p {
+  color: blueviolet;
+}
+  }
+
   
