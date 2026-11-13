@@ -1,16 +1,26 @@
-body {
+
   * {
   font-size: 100%;
   margin: 20px;
   line-height: 1;
   box-sizing: border-box;
 
-background-color:#18261E ;
+
+  }
+
+
+body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #EFE9D8 ;
+
+  padding: 107;
+  
+
+  background-color:#18261E ;
+ 
   }
 
 .banner {
@@ -57,6 +67,7 @@ a:hover {
 
 .walk{
   text-align: center;
+  border-style: dotted; color: #8E7AB5;
 }
 
 .i-columns {
@@ -91,6 +102,20 @@ a:hover {
 .salmon p {
   color: blueviolet;
 }
-  }
 
+.box{
+  background-image: url(./media/alejandro-barba-HytQ2reEb1Y-unsplash.jpg);
+   background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  min-height: 400px; 
+  padding: 30px;
+  background-color: #18261E;
+}
+
+.box li {
+  color: blue;
+  font-weight: bolder;
+}
   
