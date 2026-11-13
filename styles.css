@@ -110,6 +110,7 @@ a:hover {
   background-repeat:no-repeat;
   background-attachment: fixed;
   min-height: 400px; 
+  max-width: fit-content;
   padding: 30px;
   background-color: #18261E;
 }
